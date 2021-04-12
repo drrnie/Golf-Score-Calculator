@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    margin-top: 1.5em;
+}
+h1, h4, h5{
+    color: white;
+}
+
+h1{
+    font-weight: bold;
+}
+html{
+    transition: 0.5s;
+    background: linear-gradient(90deg, #699113bd 0%,#141517ad 100% ), url(../img/bg.jpg);
+    background-size: cover;
+}
+.container{
+    text-align: center;
+}
+
+.buttons button{
+    background-color: rgb(7, 167, 34);
+    color: white;
+    border: solid 2px black;
+    border-radius: 16px;
+    margin-left: 3em;
+}
+.buttons button:hover{
+    transition: 0.5s;
+    background-color: black;
+    color: white;
+}

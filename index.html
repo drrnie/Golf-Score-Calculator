@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <title>Golf</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Golf Score Calculator</h1>
+        <br>
+        <h4>Strokes</h4>
+        <h5 id="strokes">0</h5>
+        <br>
+        <h4>Par</h4>
+        <h5 id="par">0</h5>
+        <div class="buttons">
+            <br>
+            <button type="button" class="submitScore" onclick="totalScore(); return false">HIT</button>
+            <button type="button" onclick="reset(); return false">RESET</button>
+        </div>
+        <br>
+        <h4 id="returnvalues">What does the score card say?</h4>
+    </div>
+</body>
+<script src="js/main.js"></script>
+</html>
